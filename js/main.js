@@ -1,8 +1,8 @@
 var $win = $(window);
 var $bgSection = $('.bg-section');
 var $logo = $('.logo');
-var fadeStart=100 // 100px scroll or less will equiv to 1 opacity
-    ,fadeUntil=1000 // 1000px scroll or more will equiv to 0 opacity
+var fadeStart=1 // 1px scroll or less will equiv to 1 opacity
+    ,fadeUntil=200 // 200px scroll or more will equiv to 0 opacity
     ,fading = $('.fading')
 ;
 
