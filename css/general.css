@@ -42,6 +42,7 @@ body {
 .logo {
    position: fixed;
    width: 100%;
+   height: auto;
    text-align: center;
 }
 
@@ -70,6 +71,7 @@ body {
    font-size: 0.5em;
    font-family: 'Helvetica', sans-serif;
    color: #fff;
+   z-index: 5;
 }
 
 .bw {
