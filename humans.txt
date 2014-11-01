@@ -1,0 +1,20 @@
+# PEOPLE
+
+Designer: David Birch
+Email: contact@davidbirch.ca
+Location: Ottawa, Ontario
+Website: davidbirch.ca
+Github: http://github.com/birchy009
+Twitter: @
+
+# THANKS
+
+Downloaded Code Thing © Some Person: http://codething.com
+Stock Image © Another Person: http://gettyimages.com
+
+# TOOLS
+
+Sublime Text
+GitHub
+Illustrator
+Hover.com
