@@ -1,9 +1,9 @@
-body {
+body, figure {
    margin: 0;
    padding: 0;
 }
 
-/*                                              First Section*/
+/*                                                                   First Section*/
 
 .bg {
    position: fixed; 
@@ -97,23 +97,29 @@ h5 {
    }
 }
 
-/*                                              Second Section*/
+/*                                                                         Second Section*/
 
 .about {
    padding: 5em 0;
    background-color: rgba(100,100,100,1);
    position: relative;
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
    transition: all 500ms ease;
 }
 
 .aboutme {
-   z-index: 10;
+   z-index: 3;
    color: #fff;
    font-size: 2em;
    text-align: center;
    font-family: 'Oxygen', sans-serif;
    top: -3em;
    position: relative;
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
    transition: all 500ms ease;
 }
 
@@ -137,14 +143,15 @@ h5 {
    }
 }
 
-/*                                              Third Section*/
+/*                                                                       Third Section*/
 
 .main {
-   padding: 3em 1% 50em;
+   padding: 3em 1% 1em;
    background-color: #fff;
-   z-index: 2;
+   z-index: 4;
    text-align: center;
    position: relative;
+   overflow: hidden;
 }
 
 .bw {
@@ -154,9 +161,13 @@ h5 {
    -ms-filter: grayscale(100%);
    filter: grayscale(100%);
    filter: gray; /* IE 6-9 */
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
    transition: all 500ms ease;
 
    width: 75%;
+   z-index: 5;
    padding: 0;
    margin: 0 12.5%;
    position: relative;
@@ -178,12 +189,11 @@ h5 {
    height: 17.5em;
    z-index: 5;
    margin: 0 auto;
+   position: relative;
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
    transition: all 500ms ease;
-}
-
-figure {
-   margin: 0;
-   padding: 0;
 }
 
 figcaption {
@@ -195,11 +205,14 @@ figcaption {
    bottom: 1.85em;
    opacity: 0;
    background-color: rgba(0,0,0,0.5);
-   z-index: 2;
+   z-index: 6;
    font-weight: bold;
    font-size: 1.25em;
    font-family: 'Helvetica', sans-serif;
-   transition: opacity 500ms ease;
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
+   transition: all 500ms ease;
 }
 
 figure:hover figcaption {
@@ -244,4 +257,28 @@ figure:hover figcaption {
    figcaption {
       opacity: 100;
    }
+}
+
+/*                                                                       Fourth Section*/
+
+.contact {
+   position: relative;
+   padding: 5em 5% 5em;
+   background-color: rgba(100,100,100,1);
+   color: #fff;
+   font-family: 'Oxygen', sans-serif;
+}
+
+.name2 {
+   font-size: 2em;
+}
+
+.email {
+   color: #fff;
+   font-style: italic;
+   font-size: 1.25em;
+}
+
+.info {
+   line-height: 0.5em;
 }

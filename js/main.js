@@ -2,9 +2,9 @@ var $win = $(window);
 var $bgSection = $('.bg-section');
 var $main = $('.main');
 var fadeStart=1 // 1px scroll or less will equiv to 1 opacity
-    ,fadeUntil=200 // 200px scroll or more will equiv to 0 opacity
-    ,fading = $('.fading')
-;
+    ,fadeUntil=300 // 200px scroll or more will equiv to 0 opacity
+    ,fading = $('.fading');
+var $contact = $('.contact');
 
 $(window).bind('scroll', function(){
     var offset = $(document).scrollTop()
@@ -28,5 +28,11 @@ $win.on('scroll', function () {
 $win.on('scroll', function () {
     var scrollPos = $win.scrollTop();
 
-    $main.css('top', '-' + scrollPos/4 + 'px');
+    $main.css('margin-top', '-' + scrollPos/2.5 + 'px');
+});
+
+$win.on('scroll', function () {
+    var scrollPos = $win.scrollTop();
+
+    $contact.css('background-position', 'center ' + scrollPos/4 + 'px');
 });
