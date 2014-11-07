@@ -20,7 +20,7 @@ body, figure {
    position: fixed;
    right: 3%;
    top: 1em;
-   font-family: 'Helvetica', sans-serif;
+   font-family: 'Oxygen', sans-serif;
 }
 
 .contact-button:active {
@@ -232,7 +232,7 @@ figcaption {
    z-index: 6;
    font-weight: bold;
    font-size: 1.25em;
-   font-family: 'Helvetica', sans-serif;
+   font-family: 'Oxygen', sans-serif;
    -webkit-transition: all 500ms ease;
    -moz-filter: all 500ms ease;
    -ms-filter: all 500ms ease;
@@ -326,7 +326,7 @@ figure:hover figcaption {
    color: #fff;
    right: 3%;
    bottom: 1em;
-   font-family: 'Helvetica', sans-serif;
+   font-family: 'Oxygen', sans-serif;
 }
 
 .top:active {
