@@ -2,9 +2,9 @@ var $win = $(window);
 var $bgSection = $('.bg-section');
 var $main = $('.main');
 var fadeStart=1 // 1px scroll or less will equiv to 1 opacity
-    ,fadeUntil=300 // 200px scroll or more will equiv to 0 opacity
+    ,fadeUntil=250 // 250px scroll or more will equiv to 0 opacity
     ,fading = $('.fading');
-var $contact = $('.contact');
+var $contact = $('.contact-link');
 
 $(window).bind('scroll', function(){
     var offset = $(document).scrollTop()
@@ -31,8 +31,15 @@ $win.on('scroll', function () {
     $main.css('margin-top', '-' + scrollPos/2.5 + 'px');
 });
 
-$win.on('scroll', function () {
-    var scrollPos = $win.scrollTop();
+$('a[href^="#"]').on('click', function(event) {
 
-    $contact.css('background-position', 'center ' + scrollPos/4 + 'px');
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
 });
