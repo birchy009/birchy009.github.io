@@ -3,18 +3,14 @@ body, figure {
    padding: 0;
 }
 
+a {
+   text-decoration: none;
+}
+
 /*                                                                   First Section*/
 
 .contact-button {
    display: none;
-   /*
-   background-color: rgba(77,77,77,77.5);
-   border-radius: 15px;
-   width: 7em;
-   padding: 0.5em 0;
-   text-decoration: none;
-   text-align: center;
-   */
    border-bottom: 1px #fff solid;
    color: #fff;
    position: fixed;
@@ -174,8 +170,21 @@ h5 {
    overflow: hidden;
 }
 
+.large-1-3 {
+   width: 33.33%;
+   float: left;
+   height: 17.5em;
+   z-index: 5;
+   margin: 0 auto;
+   position: relative;
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
+   transition: all 500ms ease;
+}
+
 .bw {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
    -webkit-filter: grayscale(100%);
    -moz-filter: grayscale(100%);
    -ms-filter: grayscale(100%);
@@ -186,11 +195,24 @@ h5 {
    -ms-filter: all 500ms ease;
    transition: all 500ms ease;
 
-   width: 75%;
+   width: 90%;
    z-index: 5;
    padding: 0;
-   margin: 0 12.5%;
+   margin: 0 5%;
    position: relative;
+
+   font-weight: bold;
+   font-size: 1.25em;
+   font-family: 'Oxygen', sans-serif;
+}
+
+.bw img {
+   -webkit-transition: all 500ms ease;
+   -moz-filter: all 500ms ease;
+   -ms-filter: all 500ms ease;
+   transition: all 500ms ease;
+   width: 80%;
+   margin: 0 10%;
 }
 
 .bw:hover {
@@ -198,22 +220,11 @@ h5 {
    -moz-filter: none;
    -ms-filter: none;
    filter: none;
-
-   width: 90%;
-   margin: 0;
 }
 
-.large-1-3 {
-	width: 33.33%;
-	float: left;
-   height: 16.5em;
-   z-index: 5;
-   margin: 0 auto;
-   position: relative;
-   -webkit-transition: all 500ms ease;
-   -moz-filter: all 500ms ease;
-   -ms-filter: all 500ms ease;
-   transition: all 500ms ease;
+.bw:hover img {
+   width: 95%;
+   margin: 0 2.5%
 }
 
 .evener {
@@ -221,25 +232,18 @@ h5 {
 }
 
 figcaption {
-   width: 90%;
+   width: 95%;
    margin: 0 auto;
    padding: 0.25em 0;
    color: #fff;
    position: relative;
-   bottom: 1.85em;
+   bottom: 0em;
    opacity: 0;
-   background-color: rgba(0,0,0,0.5);
-   z-index: 6;
-   font-weight: bold;
-   font-size: 1.25em;
-   font-family: 'Oxygen', sans-serif;
-   -webkit-transition: all 500ms ease;
-   -moz-filter: all 500ms ease;
-   -ms-filter: all 500ms ease;
-   transition: all 500ms ease;
+   background-color: rgba(0,0,0,0.75);
+   text-decoration: none;
 }
 
-figure:hover figcaption {
+.bw:hover figcaption {
    opacity: 100;
 }
 
