@@ -1,7 +1,3 @@
-body {
-   -webkit-transform: translate3d(0, 0, 0);
-}
-
 body, figure {
    margin: 0;
    padding: 0;
@@ -49,7 +45,6 @@ a {
    position: relative;
    z-index: 1;
    padding: 25em 0 35em;
-   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .name {
@@ -153,7 +148,6 @@ h5 {
    -moz-filter: all 500ms ease;
    -ms-filter: all 500ms ease;
    transition: all 500ms ease;
-   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .aboutme {
@@ -198,7 +192,6 @@ h5 {
    text-align: center;
    position: relative;
    overflow: hidden;
-   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .large-1-3 {
@@ -235,7 +228,6 @@ h5 {
    font-weight: bold;
    font-size: 1.25em;
    font-family: 'Oxygen', sans-serif;
-   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .bw img {
@@ -308,7 +300,6 @@ figcaption {
    background-color: rgba(100,100,100,1);
    color: #fff;
    font-family: 'Oxygen', sans-serif;
-   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .name2 {
