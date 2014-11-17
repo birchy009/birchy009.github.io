@@ -50,7 +50,7 @@ a {
    text-align: center;
    position: relative;
    z-index: 1;
-   padding: 25em 0 35em;
+   padding: 25em 0 25em;
    -webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -108,15 +108,15 @@ h5 {
       padding: 25em 0 35em;
    }
    .name {
-      top: 12em;
-      font-size: 3em;
+      top: 7em;
+      font-size: 4.5em;
    }
    .cred {
-      top: 37em;
+      top: 42em;
    }
    .link,
    .link:visited {
-      font-size: 6px;
+      font-size: 10px;
    }
 }
 
@@ -211,9 +211,8 @@ h5 {
 .large-1-3 {
    width: 33.33%;
    float: left;
-   height: 17.5em;
    z-index: 5;
-   margin: 0 auto;
+   margin: 0 auto 1.5em;
    position: relative;
    -webkit-transition: all 500ms ease;
    -moz-filter: all 500ms ease;
@@ -250,8 +249,8 @@ h5 {
    -moz-filter: all 500ms ease;
    -ms-filter: all 500ms ease;
    transition: all 500ms ease;
-   width: 80%;
-   margin: 0 10%;
+   width: 95%;
+   margin: 0 2.5% 0.25em;
 }
 
 .bw:hover {
@@ -259,11 +258,6 @@ h5 {
    -moz-filter: none;
    -ms-filter: none;
    filter: none;
-}
-
-.bw:hover img {
-   width: 95%;
-   margin: 0 2.5% 0.25em;
 }
 
 .evener {
@@ -276,33 +270,20 @@ figcaption {
    padding: 0.25em 0 0.5em;
    color: #fff;
    position: relative;
-   opacity: 0;
    background-color: #222;
    background-color: rgba(0,0,0,0.75);
    text-decoration: none;
 }
 
-.bw:hover figcaption {
-   opacity: 100;
-}
-
 @media screen and (min-width: 240px) and (max-width: 960px) {
-   .bw img {
-      width: 95%;
-      margin: 0 2.5% 0.5em;
-   }
    .bw {
       -webkit-filter: none;
       -moz-filter: none;
       -ms-filter: none;
       filter: none;
    }
-   figcaption {
-      opacity: 100;
-   }
    .large-1-3 {
       width: 100%;
-      height: 32em;
    }
    .evener {
       display: block;
@@ -310,10 +291,6 @@ figcaption {
 }
 
 @media screen and (min-width: 961px) and (max-width: 1300px) {
-   .bw img {
-      width: 95%;
-      margin: 0 2.5% 0.5em;
-   }
    .bw {
       width: 95%;
       margin: 0 2.5%;
@@ -322,12 +299,8 @@ figcaption {
       -ms-filter: none;
       filter: none;
    }
-   figcaption {
-      opacity: 100;
-   }
    .large-1-3 {
       width: 50%;
-      height: 23em;
    }
    .evener {
       display: none;
