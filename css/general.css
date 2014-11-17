@@ -120,7 +120,7 @@ h5 {
    }
 }
 
-@media screen and (min-width: 960px) and (max-width: 1300px) {
+@media screen and (min-width: 961px) and (max-width: 1300px) {
    .contact-button {
       display: block;
       z-index: 5;
@@ -185,7 +185,7 @@ h5 {
    }
 }
 
-@media screen and (min-width: 960px) and (max-width: 1300px) {
+@media screen and (min-width: 961px) and (max-width: 1300px) {
    .aboutme {
       padding: 0 10%;
       font-size: 1.75em;
@@ -309,7 +309,7 @@ figcaption {
    }
 }
 
-@media screen and (min-width: 960px) and (max-width: 1300px) {
+@media screen and (min-width: 961px) and (max-width: 1300px) {
    .bw img {
       width: 95%;
       margin: 0 2.5% 0.5em;
@@ -391,7 +391,7 @@ figcaption {
    }
 }
 
-@media screen and (min-width: 960px) and (max-width: 1300px) {
+@media screen and (min-width: 961px) and (max-width: 1300px) {
    .top {
       right: 7%;
    }
