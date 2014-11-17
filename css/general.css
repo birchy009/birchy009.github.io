@@ -1,3 +1,6 @@
+body {
+}
+
 body, figure {
    margin: 0;
    padding: 0;
@@ -64,8 +67,7 @@ a {
 }
 
 .cred {
-   background-color: #888;
-   background-color: rgba(77,77,77,0.65);
+   background-color: rgba(77,77,77,77.5);
    position: fixed;
    top: 42em;
    right: 0;
@@ -92,7 +94,6 @@ h5 {
       z-index: 5;
       right: 7%;
       top: 1em;
-      background-color: #888;
       background-color: rgba(77,77,77,77.5);
       border-bottom: none;
       text-decoration: underline;
@@ -151,7 +152,7 @@ h5 {
 .about {
    z-index: 2;
    padding: 5em 0;
-   background-color: rgb(100,100,100);
+   background-color: rgba(100,100,100,1);
    position: relative;
    -webkit-transition: all 500ms ease;
    -moz-filter: all 500ms ease;
@@ -161,7 +162,6 @@ h5 {
 }
 
 .aboutme {
-   padding: 0 15%;
    color: #fff;
    font-size: 2em;
    text-align: center;
@@ -176,7 +176,6 @@ h5 {
 
 @media screen and (min-width: 240px) and (max-width: 960px) {
    .aboutme {
-      padding: 0 5%;
       font-size: 1.5em;
       top: -2em;
    }
@@ -187,7 +186,6 @@ h5 {
 
 @media screen and (min-width: 961px) and (max-width: 1300px) {
    .aboutme {
-      padding: 0 10%;
       font-size: 1.75em;
       top: -2.5em;
    }
@@ -260,6 +258,14 @@ h5 {
    filter: none;
 }
 
+<<<<<<< HEAD
+=======
+.bw:hover img {
+   width: 95%;
+   margin: 0 2.5%
+}
+
+>>>>>>> parent of 50fc2ad... added pieces
 .evener {
    display: block;
 }
@@ -267,10 +273,15 @@ h5 {
 figcaption {
    width: 95%;
    margin: 0 auto;
-   padding: 0.25em 0 0.5em;
+   padding: 0.25em 0;
    color: #fff;
    position: relative;
+<<<<<<< HEAD
    background-color: #222;
+=======
+   bottom: 0em;
+   opacity: 0;
+>>>>>>> parent of 50fc2ad... added pieces
    background-color: rgba(0,0,0,0.75);
    text-decoration: none;
 }
@@ -313,7 +324,7 @@ figcaption {
    z-index: 4;
    position: relative;
    padding: 5em 6% 5em;
-   background-color: rgb(100,100,100);
+   background-color: rgba(100,100,100,1);
    color: #fff;
    font-family: 'Oxygen', sans-serif;
    -webkit-transform: translate3d(0, 0, 0);
