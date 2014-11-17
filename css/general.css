@@ -86,7 +86,7 @@ h5 {
    padding: 0;
 }
 
-@media only screen (min-width: 240px) and (max-width: 700px) {
+@media only screen and (min-width: 240px) and (max-width: 700px) {
    .contact-button {
       display: block;
       z-index: 5;
@@ -120,7 +120,7 @@ h5 {
    }
 }
 
-@media only screen (min-width: 700px) and (max-width: 1080px) {
+@media only screen and (min-width: 700px) and (max-width: 1080px) {
    .contact-button {
       display: block;
       z-index: 5;
@@ -174,7 +174,7 @@ h5 {
    transition: all 500ms ease;
 }
 
-@media only screen (min-width: 240px) and (max-width: 700px) {
+@media only screen and (min-width: 240px) and (max-width: 700px) {
    .aboutme {
       padding: 0 5%;
       font-size: 1.5em;
@@ -185,7 +185,7 @@ h5 {
    }
 }
 
-@media only screen (min-width: 700px) and (max-width: 1080px) {
+@media only screen and (min-width: 700px) and (max-width: 1080px) {
    .aboutme {
       padding: 0 10%;
       font-size: 1.75em;
@@ -286,7 +286,7 @@ figcaption {
    opacity: 100;
 }
 
-@media only screen (min-width: 240px) and (max-width: 700px) {
+@media only screen and (min-width: 240px) and (max-width: 700px) {
    .large-1-3 {
       width: 100%;
       height: 21em;
@@ -296,7 +296,7 @@ figcaption {
    }
 }
 
-@media only screen (min-width: 700px) and (max-width: 1080px) {
+@media only screen and (min-width: 700px) and (max-width: 1080px) {
    .large-1-3 {
       width: 50%;
       height: 17.5em;
@@ -352,7 +352,7 @@ figcaption {
    bottom: 0.5em;
 }
 
-@media only screen (min-width: 240px) and (max-width: 700px) {
+@media only screen and (min-width: 240px) and (max-width: 700px) {
    .top {
       right: 10%;
    }
@@ -363,7 +363,7 @@ figcaption {
    }
 }
 
-@media only screen (min-width: 700px) and (max-width: 1080px) {
+@media only screen and (min-width: 700px) and (max-width: 1080px) {
    .top {
       right: 7%;
    }
