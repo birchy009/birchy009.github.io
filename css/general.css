@@ -110,11 +110,11 @@ h5 {
       padding: 25em 0 35em;
    }
    .name {
-      top: 7em;
+      top: 55%;
       font-size: 4.5em;
    }
    .cred {
-      top: 42em;
+      top: 75%;
    }
    .link,
    .link:visited {
@@ -137,10 +137,10 @@ h5 {
       padding: 25em 0 35em;
    }
    .name {
-      top: 6em;
+      top: 50%;
    }
    .cred {
-      top: 47em;
+      top: 75%;
    }
    .link,
    .link:visited {

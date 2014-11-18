@@ -2,7 +2,7 @@ var $win = $(window);
 var $bgSection = $('.bg-section');
 var $main = $('.main');
 var fadeStart=1 // 1px scroll or less will equiv to 1 opacity
-    ,fadeUntil=250 // 250px scroll or more will equiv to 0 opacity
+    ,fadeUntil=350 // 350px scroll or more will equiv to 0 opacity
     ,fading = $('.fading');
 var $contact = $('.contact-link');
 
