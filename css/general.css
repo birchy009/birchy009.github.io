@@ -57,21 +57,22 @@ a {
 
 .name {
    width: 100%;
-   top: 5em;
+   top: 70%;
    font-family: 'Oxygen', sans-serif;
    font-size: 6em;
    color: #fff;
    position: fixed;
+   z-index: 10;
+   text-align: center;
 }
 
 .cred {
    background-color: #888;
    background-color: rgba(77,77,77,0.65);
-   top: 42em;
+   top: 90%;
    right: 0;
    padding: 0.5em 1%;
    color: #fff;
-   text-decoration: none;
    position: fixed;
 }
 
