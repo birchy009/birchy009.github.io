@@ -23,7 +23,7 @@ a {
    position: fixed;
    right: 3%;
    top: 1em;
-   font-family: 'Oxygen', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
    transition: all 250ms ease;
 }
 
@@ -58,7 +58,8 @@ a {
 .name {
    width: 100%;
    top: 70%;
-   font-family: 'Oxygen', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
+   font-weight: 300;
    font-size: 6em;
    color: #fff;
    position: fixed;
@@ -114,7 +115,7 @@ h5 {
       font-size: 4.5em;
    }
    .cred {
-      top: 85%;
+      top: 75%;
    }
    .link,
    .link:visited {
@@ -134,13 +135,13 @@ h5 {
       right: 4%;
    }
    .bg-section {
-      padding: 25em 0 35em;
+      padding: 25em 0 30em;
    }
    .name {
-      top: 50%;
+      top: 60%;
    }
    .cred {
-      top: 75%;
+      top: 85%;
    }
    .link,
    .link:visited {
@@ -163,11 +164,11 @@ h5 {
 }
 
 .aboutme {
-   padding: 0 15%;
+   padding: 0 10%;
    color: #fff;
    font-size: 2em;
    text-align: center;
-   font-family: 'Oxygen', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
    top: -3em;
    position: relative;
    -webkit-transition: all 500ms ease;
@@ -241,9 +242,9 @@ h5 {
    margin: 0 5%;
    position: relative;
 
-   font-weight: bold;
+   font-weight: 700;
    font-size: 1.25em;
-   font-family: 'Oxygen', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
    -webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -318,7 +319,7 @@ figcaption {
    padding: 5em 6% 5em;
    background-color: rgb(100,100,100);
    color: #fff;
-   font-family: 'Oxygen', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
    -webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -328,6 +329,7 @@ figcaption {
 
 .email {
    color: #fff;
+   font-family: 'Noto Sans', sans-serif;
    font-style: italic;
    font-size: 1.25em;
 }
@@ -342,7 +344,7 @@ figcaption {
    color: #fff;
    right: 3%;
    bottom: 1em;
-   font-family: 'Oxygen', sans-serif;
+   font-family: 'Noto Sans', sans-serif;
    transition: all 250ms ease;
 }
 
