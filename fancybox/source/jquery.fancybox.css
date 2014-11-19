@@ -233,10 +233,17 @@
 	        border-radius: 5px;
 	text-shadow: 0 1px 2px #222;
 	color: #FFF;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	font-family: 'Noto Sans', sans-serif;
 	line-height: 24px;
 	white-space: nowrap;
+}
+
+@media screen and (min-width: 240px) and (max-width: 720px) {
+	.fancybox-title-float-wrap .child {
+		font-size: 1em;
+		white-space: normal;
+	}
 }
 
 .fancybox-title-outside-wrap {
