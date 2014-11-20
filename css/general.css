@@ -97,7 +97,7 @@ h5 {
    padding: 0;
 }
 
-@media screen and (min-width: 240px) and (max-width: 720px) {
+@media screen and (min-width: 240px) and (max-width: 639px) {
    .contact-button {
       display: block;
       z-index: 5;
@@ -131,7 +131,7 @@ h5 {
    }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1080px) {
+@media screen and (min-width: 640px) and (max-width: 1080px) {
    .contact-button {
       display: block;
       z-index: 5;
@@ -186,7 +186,7 @@ h5 {
    transition: all 500ms ease;
 }
 
-@media screen and (min-width: 240px) and (max-width: 720px) {
+@media screen and (min-width: 240px) and (max-width: 639px) {
    .aboutme {
       padding: 0 5%;
       font-size: 1.5em;
@@ -197,7 +197,7 @@ h5 {
    }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1080px) {
+@media screen and (min-width: 640px) and (max-width: 1080px) {
    .aboutme {
       padding: 0 10%;
       font-size: 1.75em;
@@ -289,7 +289,7 @@ h5 {
    text-decoration: none;
 }
 
-@media screen and (min-width: 240px) and (max-width: 720px) {
+@media screen and (min-width: 240px) and (max-width: 639px) {
    .bw {
       -webkit-filter: none;
       -moz-filter: none;
@@ -304,7 +304,7 @@ h5 {
    }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1080px) {
+@media screen and (min-width: 640px) and (max-width: 1080px) {
    .bw {
       width: 95%;
       margin: 0 2.5%;
@@ -369,7 +369,7 @@ h5 {
    color: rgb(00,64,00);
 }
 
-@media screen and (min-width: 240px) and (max-width: 720px) {
+@media screen and (min-width: 240px) and (max-width: 639px) {
    .top {
       right: 10%;
       padding: 0.5em 10%;
@@ -381,7 +381,7 @@ h5 {
    }
 }
 
-@media screen and (min-width: 721px) and (max-width: 1080px) {
+@media screen and (min-width: 640px) and (max-width: 1080px) {
    .top {
       right: 7%;
       padding: 0.5em 7%;
