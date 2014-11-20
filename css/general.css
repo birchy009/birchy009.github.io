@@ -123,7 +123,7 @@ h5 {
       font-size: 4em;
    }
    .cred {
-      top: 70%;
+      top: 75%;
    }
    .link,
    .link:visited {
@@ -188,7 +188,8 @@ h5 {
 
 @media screen and (min-width: 240px) and (max-width: 639px) {
    .aboutme {
-      padding: 0 2.5%;
+      font-size: 1.5em;
+      padding: 0 2.5% 3.5em;
       font-size: 1.5em;
       top: -2em;
    }
@@ -199,7 +200,8 @@ h5 {
 
 @media screen and (min-width: 640px) and (max-width: 1080px) {
    .aboutme {
-      padding: 0 10%;
+      font-size: 1.75em;
+      padding: 0 10% 2em;
       font-size: 1.75em;
       top: -2.5em;
    }
