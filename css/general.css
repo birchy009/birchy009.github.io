@@ -258,9 +258,6 @@ h5 {
    margin: 0 5%;
    position: relative;
 
-   font-weight: 700;
-   font-size: 1.25em;
-   font-family: 'Noto Sans', sans-serif;
    transform: translate3d(0, 0, 0);
    -webkit-transform: translate3d(0, 0, 0);
 }
@@ -286,6 +283,9 @@ h5 {
 }
 
 .caption {
+   font-family: 'Noto-Sans', sans-serif;
+   font-weight: 700;
+   font-size: 1.15em;
    width: 95%;
    margin: 0 auto;
    padding: 0.25em 0 0.25em;
