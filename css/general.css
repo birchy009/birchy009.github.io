@@ -285,7 +285,7 @@ h5 {
    display: block;
 }
 
-figcaption {
+.caption {
    width: 95%;
    margin: 0 auto;
    padding: 0.25em 0 0.25em;
