@@ -28,7 +28,7 @@ $win.on('scroll', function () {
 $win.on('scroll', function () {
     var scrollPos = $win.scrollTop();
 
-    $main.css('margin-top', '-' + scrollPos/2.5 + 'px');
+    $main.css('margin-top', '-' + scrollPos/4 + 'px');
 });
 
 $('a[href^="#"]').on('click', function(event) {
