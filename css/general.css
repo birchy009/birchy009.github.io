@@ -274,10 +274,6 @@ h5 {
    filter: none;
 }
 
-.evener {
-   display: block;
-}
-
 .caption {
    font-family: 'Noto-Sans', sans-serif;
    font-weight: 700;
@@ -301,9 +297,6 @@ h5 {
    .resize {
       width: 100%;
    }
-   .evener {
-      display: block;
-   }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1080px) {
@@ -317,9 +310,6 @@ h5 {
    }
    .resize {
       width: 50%;
-   }
-   .evener {
-      display: none;
    }
 }
 
