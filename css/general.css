@@ -11,7 +11,6 @@ a {
 /*                                                                   First Section*/
 
 .contact-button {
-   display: none;
    border-bottom: 1px #fff solid;
    color: #fff;
    position: fixed;
@@ -46,13 +45,12 @@ a {
    position: relative;
    z-index: 1;
    padding: 25em 0 25em;
-   transform: translate3d(0, 0, 0);
-   -webkit-transform: translate3d(0, 0, 0);
 }
 
 .name {
+   background: transparent url('../img/wordmark.svg') no-repeat center center;
    width: 100%;
-   top: 70%;
+   top: 65%;
    font-family: 'Noto Sans', sans-serif;
    font-weight: 300;
    font-size: 6em;
@@ -60,6 +58,13 @@ a {
    position: fixed;
    z-index: 10;
    text-align: center;
+}
+
+.hide-text {
+   text-indent: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   display: block;
 }
 
 .cred {
@@ -71,12 +76,14 @@ a {
    position: fixed;
    z-index: 11;
    transition: all 250ms ease;
+   transform: translateX(135px);
 }
 
 .cred:hover,
 .cred:active {
    background-color: rgb(255,255,255);
    color: #888;
+   transform: translateX(10px);
 }
 
 .link,
@@ -118,10 +125,6 @@ h5 {
    .bg-section {
       padding: 25em 0 35em;
    }
-   .name {
-      top: 50%;
-      font-size: 4em;
-   }
    .cred {
       top: 75%;
    }
@@ -144,9 +147,6 @@ h5 {
    }
    .bg-section {
       padding: 25em 0 30em;
-   }
-   .name {
-      top: 60%;
    }
    .cred {
       top: 85%;
@@ -337,6 +337,11 @@ h5 {
    font-style: italic;
    font-size: 1.25em;
    line-height: 0.75em;
+}
+
+.contact i:hover,
+.contact .link-to:hover i {
+   transform: scale(1.5);
 }
 
 .info {
