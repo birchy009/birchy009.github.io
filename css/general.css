@@ -56,7 +56,7 @@ a {
    font-size: 6em;
    color: #fff;
    position: fixed;
-   z-index: 10;
+   z-index: 5;
    text-align: center;
 }
 
@@ -68,13 +68,11 @@ a {
 }
 
 .cred {
-   background-color: #555;
    background-color: rgba(77,77,77,0.65);
    top: 90%;
    right: 0;
    padding: 0.5em 1%;
    position: fixed;
-   z-index: 11;
    transition: all 250ms ease;
    transform: translateX(135px);
 }
@@ -82,7 +80,6 @@ a {
 .cred:hover,
 .cred:active {
    background-color: rgb(255,255,255);
-   color: #888;
    transform: translateX(10px);
 }
 
@@ -96,7 +93,7 @@ a {
 
 .cred:hover .link,
 .cred:active .link {
-   color: #555;
+   color: rgb(00,100,00);
 }
 
 h5 {
@@ -264,7 +261,7 @@ h5 {
    -ms-filter: all 500ms ease;
    transition: all 500ms ease;
    width: 95%;
-   margin: 0 2.5% 0.25em;
+   margin: 0 2.5% 0.5em;
 }
 
 .bw:hover {
@@ -280,11 +277,15 @@ h5 {
    font-size: 1.15em;
    width: 95%;
    margin: 0 auto;
-   padding: 0.25em 0 0.25em;
+   padding: 0.5em 0 0.5em;
    color: #fff;
    position: relative;
    background-color: rgb(45,45,45);
    text-decoration: none;
+}
+
+.bw:hover .caption {
+   background-color: rgb(00,64,00);
 }
 
 @media screen and (min-width: 240px) and (max-width: 639px) {
