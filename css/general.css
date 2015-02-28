@@ -338,6 +338,11 @@ h5 {
    font-style: italic;
    font-size: 1.25em;
    line-height: 0.75em;
+   width: 250px;
+}
+
+.link-to i {
+   padding-right: 20px;
 }
 
 .contact i:hover,
